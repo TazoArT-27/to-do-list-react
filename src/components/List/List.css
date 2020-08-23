@@ -1,0 +1,28 @@
+.todo_style{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 0px ;
+    
+}
+.deleteIcon{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    background-color: #8566aa;
+    color: white;
+    padding: 3px;
+    border-radius: 8px;
+}
+.deleteIcon:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #8566aa;
+}
+.todo_style li{
+    margin-left: 15px;
+}
